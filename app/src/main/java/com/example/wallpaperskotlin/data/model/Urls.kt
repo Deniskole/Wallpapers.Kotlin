@@ -6,7 +6,6 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 class Urls {
-
     @SerializedName(REGULAR)
     @Expose
     private var regular: String? = null
@@ -29,5 +28,4 @@ class Urls {
     fun setSmall(small: String) {
         this.small = small
     }
-
 }

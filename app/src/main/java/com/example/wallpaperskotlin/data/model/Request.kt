@@ -6,7 +6,6 @@ import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
 class Request {
-
     @SerializedName(TOTAL)
     @Expose
     private var total: Int? = null
@@ -30,5 +29,4 @@ class Request {
     fun setResults(results: List<Result>) {
         this.results = results
     }
-
 }

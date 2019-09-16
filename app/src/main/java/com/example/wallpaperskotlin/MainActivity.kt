@@ -8,7 +8,6 @@ import com.example.wallpaperskotlin.fragments.photos.PhotosFragment
 import com.example.wallpaperskotlin.util.Utils
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var manager: FragmentManager
     private lateinit var transaction: FragmentTransaction
     private lateinit var photosFragment: PhotosFragment

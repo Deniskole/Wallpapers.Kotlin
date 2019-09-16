@@ -1,7 +1,6 @@
 package com.example.wallpaperskotlin.util
 
 object Constants {
-
     const val UNSPLASH_API_KEY = "1e98a80d950427341a5bc69ad45fce6693567db85862e64a237e5324049d3959"
     const val DEFAULT_WALLPAPER =
         "http://wallpaperswide.com/download/the_amazing_spider_man_2012_film-wallpaper-1600x900.jpg"
@@ -23,5 +22,4 @@ object Constants {
     const val IMAGE_DENSITY = 185
     const val IMAGE_DENSITY_DIVIDER = 2
     const val VIBRATE_TIME = 100
-
 }

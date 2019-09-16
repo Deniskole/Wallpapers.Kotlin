@@ -9,8 +9,7 @@ import com.example.wallpaperskotlin.data.model.Result
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.item_photo.view.*
 
-class PhotoAdapter() :
-    RecyclerView.Adapter<ViewHolder>() {
+class PhotoAdapter : RecyclerView.Adapter<ViewHolder>() {
 
     private var photos: MutableList<Result>? = null
     lateinit var onPhotoClickListener: OnPhotoClickListener
